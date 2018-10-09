@@ -15,3 +15,8 @@ resources:
   cpu: 1
   memory_gb: 0.5
   disk_size_gb: 10
+readiness_check:
+  timeout_sec: 400
+  failure_threshold: 2
+  success_threshold: 2
+  app_start_timeout_sec: 3000
